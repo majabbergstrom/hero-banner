@@ -9,6 +9,7 @@ html {
 
 body {
   margin: 0;
+  max-width: 100%;
 }
 
 .img-flex {
@@ -23,22 +24,33 @@ body {
 }
 
 .header {
-  text-align: center;
+  padding-left: 1.5em;
+  margin: 0;
+  text-align: left;
   position: absolute;
   bottom: 1em;
   left: 50%;
+  max-width: 45em;
   width: 100%;
-  font-size: 2rem;
   transform: translateX(-50%);
 }
 
-.header h2,
 .header p {
   margin: 0;
+  font-size: 2rem;
 }
 
 .title {
+  display: inline;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: bold;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-size: 4rem;
+}
+
+.body {
+  padding-bottom: 1em;
+  font-style: italic;
 }
